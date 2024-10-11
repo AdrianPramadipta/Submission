@@ -5,8 +5,8 @@ import seaborn as sns
 import streamlit as st
 
 # Load the data
-day_df = pd.read_csv("final_day.csv")
-hour_df = pd.read_csv("final_hour.csv")
+day_df = pd.read_csv("dashboard//final_day.csv")
+hour_df = pd.read_csv("dashboard//final_hour.csv")
 
 # Set the title of the app
 st.title("Bike Sharing Data Analysis")
